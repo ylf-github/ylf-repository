@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="dao" >
+      <resultMap id="Login" type="bean.Login" >
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="loginName" property="loginName" jdbcType="VARCHAR" />
+    <result column="userPassword" property="userPassword" jdbcType="VARCHAR"/>
+  </resultMap>
+  <insert id="addLogin">
+           insert into login(id,loginName,userPassword) values (#{id},#{loginName},#{userPassword})    
+  </insert>
+</mapper>

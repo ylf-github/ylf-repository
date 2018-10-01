@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Robot" >
+      <resultMap type="robot.House" id="house">
+      <result column="houseType"  property="houseType" jdbcType="VARCHAR"/>
+      <result column="blockType"  property="blockType" jdbcType="VARCHAR"/>
+      <result column="blockAge"  property="blockAge" jdbcType="VARCHAR"/>
+      <result column="FAR"  property="FAR" jdbcType="VARCHAR"/>
+      <result column="fee"  property="fee" jdbcType="VARCHAR"/>
+      <result column="houseName" property="houseName" jdbcType="VARCHAR"/>
+      <result column="pManage"  property="pManage" jdbcType="VARCHAR"/>
+      <result column="company"  property="company" jdbcType="VARCHAR"/>
+      <result column="imgUrl"  property="imgUrl" jdbcType="VARCHAR"/>
+      </resultMap>
+      <insert id="addhouse">
+             insert into houseinfo(houseType,blockType,blockAge,
+             FAR,fee,pManage,company,imgUrl,houseName) values(#{houseType},#{blockType},#{blockAge},#{FAR},#{fee},#{pManage},#{company},#{imgUrl},#{houseName})
+      </insert>
+</mapper>
