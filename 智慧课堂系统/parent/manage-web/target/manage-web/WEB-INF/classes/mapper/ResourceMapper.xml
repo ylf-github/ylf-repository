@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ylf.manage.dao.mapper.ResourceMapper" >
+  <resultMap id="BaseResultMap" type="com.ylf.manage.entity.Resource" >
+    <id column="r_id" property="rId" jdbcType="VARCHAR" />
+    <result column="r_name" property="rName" jdbcType="VARCHAR" />
+    <result column="r_createTime" property="rCreatetime" jdbcType="VARCHAR" />
+    <result column="r_score" property="rScore" jdbcType="VARCHAR" />
+    <result column="r_url" property="rUrl" jdbcType="VARCHAR" />
+    <result column="c_id" property="cId" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    r_id, r_name, r_createTime, r_score, r_url, c_id
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from resource
+    where r_id = #{rId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteResourceByPrimaryKey" parameterType="java.lang.String" >
+    delete from resource
+    where r_id = #{rId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insertResource" parameterType="com.ylf.manage.entity.Resource" >
+    insert into resource (r_id, r_name, r_createTime, 
+      r_score, r_url, c_id)
+    values (#{rId,jdbcType=VARCHAR}, #{rName,jdbcType=VARCHAR}, #{rCreatetime,jdbcType=VARCHAR}, 
+      #{rScore,jdbcType=VARCHAR}, #{rUrl,jdbcType=VARCHAR}, #{cId,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.ylf.manage.entity.Resource" >
+    insert into resource
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="rId != null" >
+        r_id,
+      </if>
+      <if test="rName != null" >
+        r_name,
+      </if>
+      <if test="rCreatetime != null" >
+        r_createTime,
+      </if>
+      <if test="rScore != null" >
+        r_score,
+      </if>
+      <if test="rUrl != null" >
+        r_url,
+      </if>
+      <if test="cId != null" >
+        c_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="rId != null" >
+        #{rId,jdbcType=VARCHAR},
+      </if>
+      <if test="rName != null" >
+        #{rName,jdbcType=VARCHAR},
+      </if>
+      <if test="rCreatetime != null" >
+        #{rCreatetime,jdbcType=VARCHAR},
+      </if>
+      <if test="rScore != null" >
+        #{rScore,jdbcType=VARCHAR},
+      </if>
+      <if test="rUrl != null" >
+        #{rUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="cId != null" >
+        #{cId,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.ylf.manage.entity.Resource" >
+    update resource
+    <set >
+      <if test="rName != null" >
+        r_name = #{rName,jdbcType=VARCHAR},
+      </if>
+      <if test="rCreatetime != null" >
+        r_createTime = #{rCreatetime,jdbcType=VARCHAR},
+      </if>
+      <if test="rScore != null" >
+        r_score = #{rScore,jdbcType=VARCHAR},
+      </if>
+      <if test="rUrl != null" >
+        r_url = #{rUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="cId != null" >
+        c_id = #{cId,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where r_id = #{rId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.ylf.manage.entity.Resource" >
+    update resource
+    set r_name = #{rName,jdbcType=VARCHAR},
+      r_createTime = #{rCreatetime,jdbcType=VARCHAR},
+      r_score = #{rScore,jdbcType=VARCHAR},
+      r_url = #{rUrl,jdbcType=VARCHAR},
+      c_id = #{cId,jdbcType=VARCHAR}
+    where r_id = #{rId,jdbcType=VARCHAR}
+  </update>
+
+  <select id="selectCourseResource" resultMap="BaseResultMap" parameterType="java.lang.String">
+     select * from resource where c_id=#{c_id,jdbcType=VARCHAR}
+  </select>
+</mapper>

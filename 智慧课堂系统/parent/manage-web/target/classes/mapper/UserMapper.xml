@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ylf.manage.dao.mapper.UserMapper" >
+  <resultMap id="BaseResultMap" type="com.ylf.manage.entity.User" >
+    <id column="u_email" property="uEmail" jdbcType="VARCHAR" />
+    <result column="u_name" property="uName" jdbcType="VARCHAR" />
+    <result column="u_password" property="uPassword" jdbcType="VARCHAR" />
+    <!--多对多配置-->
+    <collection property="courses" javaType="ArrayList"
+                column="u_email" ofType="com.ylf.manage.entity.Course"
+                select="com.ylf.manage.dao.mapper.CourseMapper.selectCourseById"
+                fetchType="eager">
+                <id property="cId" column="c_id"></id>
+                <result property="cName" column="c_name"></result>
+                <result property="cClass" column="c_class"></result>
+                <result property="cImg" column="c_img"></result>
+    </collection>
+  </resultMap>
+  <sql id="Base_Column_List" >
+    u_email, u_name, u_password
+  </sql>
+  <select id="selectUserByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select
+    <include refid="Base_Column_List" />
+    from user
+    where u_email = #{uEmail,jdbcType=VARCHAR}
+  </select>
+  <select id="selectUserList" resultMap="BaseResultMap">
+    select * from  user
+  </select>
+  <delete id="deleteUserByPrimaryKey" parameterType="java.lang.String" >
+    delete from user
+    where u_email = #{uEmail,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insertUser" parameterType="com.ylf.manage.entity.User" >
+    insert into user (u_email, u_name, u_password
+      )
+    values (#{uEmail,jdbcType=VARCHAR}, #{uName,jdbcType=VARCHAR}, #{uPassword,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.ylf.manage.entity.User" >
+    insert into user
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="uEmail != null" >
+        u_email,
+      </if>
+      <if test="uName != null" >
+        u_name,
+      </if>
+      <if test="uPassword != null" >
+        u_password,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="uEmail != null" >
+        #{uEmail,jdbcType=VARCHAR},
+      </if>
+      <if test="uName != null" >
+        #{uName,jdbcType=VARCHAR},
+      </if>
+      <if test="uPassword != null" >
+        #{uPassword,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateUserByPrimaryKeySelective" parameterType="com.ylf.manage.entity.User" >
+    update user
+    <set >
+      <if test="uName != null" >
+        u_name = #{uName,jdbcType=VARCHAR},
+      </if>
+      <if test="uPassword != null" >
+        u_password = #{uPassword,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where u_email = #{uEmail,jdbcType=VARCHAR}
+  </update>
+  <update id="updateUserByPrimaryKey" parameterType="com.ylf.manage.entity.User" >
+    update user
+    set u_name = #{uName,jdbcType=VARCHAR},
+      u_password = #{uPassword,jdbcType=VARCHAR}
+    where u_email = #{uEmail,jdbcType=VARCHAR}
+  </update>
+
+  <update id="updateUserId" parameterType="com.ylf.manage.entity.Uemail">
+    update user set u_email=#{new_email,jdbcType=VARCHAR} where u_email=#{old_email,jdbcType=VARCHAR}
+  </update>
+
+  <select id="selectUserByCid" resultMap="BaseResultMap"  parameterType="String">
+           select * from user where u_email in (
+           select u_email from uc_item where c_type='2' and c_id=#{id,jdbcType=VARCHAR}
+           )
+  </select>
+
+  <select id="selectUserBySidTrue" resultMap="BaseResultMap" parameterType="java.lang.String">
+           select * from user where u_email in (
+           select u_email from signer where s_type='1' and s_id=#{s_id,jdbcType=VARCHAR}
+           )
+  </select>
+
+  <select id="selectUserBySidFalse" resultMap="BaseResultMap" parameterType="java.lang.String">
+           select * from user where u_email in (
+           select u_email from signer where s_type='0' and s_id=#{s_id,jdbcType=VARCHAR}
+           )
+  </select>
+
+</mapper>

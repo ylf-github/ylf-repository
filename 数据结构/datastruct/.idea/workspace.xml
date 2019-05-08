@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="64ba90fd-4805-447c-8868-3c74f4d8d7d1" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+=======
+    <leaf />
+>>>>>>> by_19/5/8
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>newCap</find>
+      <find>Iterator</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/review/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/review/LinkList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/review/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/review/HalveInsertSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/review/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/review/SelectSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/review/ShellSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/review/InsertSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/review/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/review/QSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/KMP.java" />
+=======
+>>>>>>> by_19/5/8
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/Strand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/string/KMP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/We.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/Clazz/NoName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/comparable/Test1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/tree/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/tree/Stack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/tree/NoRecursiveTraversal.java" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/tree/BiTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/tree/NoRecursiveTraverse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/tree/Queue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/tree/Main.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/tree/NoRecursiveTraverse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/tree/Queue.java" />
+>>>>>>> by_19/5/8
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/tree/BaseTreeOperation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/tree/TreeSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/Clazz/Outter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/string/Force.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/tree/Te.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/tree/Tt.java" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/tree/Long.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/tree/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/T.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/DynamicProxy/Add.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/DynamicProxy/Target.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/DynamicProxy/ProxyMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/DynamicProxy/Advice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/Clazz/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/JDBC/FetchAndBatch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/JDBC/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/comparable/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ThreadPool/SchedulePool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ThreadPool/SinglePool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ThreadPool/callable/Task.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ThreadPool/callable/CallMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ThreadPool/ThreadPoolExecuter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ThreadPool/FixedPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/queue/Queue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/queue/MyQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/queue/DelayQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ThreadPool/CachePool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/work/Do.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/work/DoMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ylf/tree/BiTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/LeftTreeView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/BitNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiaomi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/CodeTwo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/CodeThree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/CodeOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/FullArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/TestS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/Permutations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/algorithm/Combination.java" />
+>>>>>>> by_19/5/8
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="E:\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+<<<<<<< HEAD
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="55" />
+    <option name="y" value="-20" />
+    <option name="width" value="1745" />
+    <option name="height" value="980" />
+=======
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="data.struct" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-435" />
+    <option name="width" value="1745" />
+    <option name="height" value="970" />
+>>>>>>> by_19/5/8
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+<<<<<<< HEAD
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+=======
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+>>>>>>> by_19/5/8
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="datastruct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastruct" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastruct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastruct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastruct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastruct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastruct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastruct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastruct" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
+              <item name="datastruct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastruct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastruct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ylf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastruct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastruct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ylf" type="462c0819:PsiDirectoryNode" />
+              <item name="Clazz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastruct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastruct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ylf" type="462c0819:PsiDirectoryNode" />
+              <item name="comparable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastruct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastruct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ylf" type="462c0819:PsiDirectoryNode" />
+              <item name="review" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastruct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastruct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ylf" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastruct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastruct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ylf" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastruct" type="b2602c69:ProjectViewProjectNode" />
+=======
+>>>>>>> by_19/5/8
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553774762000" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../parent" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557072737578" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> by_19/5/8
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="JUnit.KMP.test">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ylf.Main" />
+      <module name="datastruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ylf.*" />
+=======
+  <component name="RunManager" selected="Application.Permutations">
+    <configuration name="BitNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.BitNumber" />
+      <module name="datastruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.*" />
+>>>>>>> by_19/5/8
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="NoRecursiveTraverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ylf.tree.NoRecursiveTraverse" />
+      <module name="datastruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ylf.tree.*" />
+=======
+    <configuration name="Combination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.Combination" />
+      <module name="datastruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.*" />
+>>>>>>> by_19/5/8
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="TreeSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ylf.tree.TreeSearch" />
+      <module name="datastruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ylf.tree.*" />
+=======
+    <configuration name="FullArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.FullArray" />
+      <module name="datastruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.*" />
+>>>>>>> by_19/5/8
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="KMP.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datastruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ylf.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ylf.string" />
+      <option name="MAIN_CLASS_NAME" value="com.ylf.string.KMP" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+=======
+    <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.Permutations" />
+      <module name="datastruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+>>>>>>> by_19/5/8
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="Main.testStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datastruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ylf.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ylf.tree" />
+      <option name="MAIN_CLASS_NAME" value="com.ylf.tree.Main" />
+      <option name="METHOD_NAME" value="testStack" />
+      <option name="TEST_OBJECT" value="method" />
+=======
+    <configuration name="TestS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.TestS" />
+      <module name="datastruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+>>>>>>> by_19/5/8
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+<<<<<<< HEAD
+      <item itemvalue="Application.NoRecursiveTraverse" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.TreeSearch" />
+      <item itemvalue="JUnit.Main.testStack" />
+      <item itemvalue="JUnit.KMP.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.KMP.test" />
+        <item itemvalue="Application.TreeSearch" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Main.testStack" />
+        <item itemvalue="Application.NoRecursiveTraverse" />
+=======
+      <item itemvalue="Application.Permutations" />
+      <item itemvalue="Application.FullArray" />
+      <item itemvalue="Application.TestS" />
+      <item itemvalue="Application.Combination" />
+      <item itemvalue="Application.BitNumber" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Permutations" />
+        <item itemvalue="Application.BitNumber" />
+        <item itemvalue="Application.Combination" />
+        <item itemvalue="Application.TestS" />
+        <item itemvalue="Application.FullArray" />
+>>>>>>> by_19/5/8
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64ba90fd-4805-447c-8868-3c74f4d8d7d1" name="Default Changelist" comment="" />
+      <created>1551694273991</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551694273991</updated>
+      <workItem from="1551694277581" duration="16360000" />
+      <workItem from="1551775862849" duration="4464000" />
+      <workItem from="1551786775411" duration="2140000" />
+      <workItem from="1551789599024" duration="284000" />
+      <workItem from="1551793316608" duration="5171000" />
+      <workItem from="1551833126564" duration="1650000" />
+      <workItem from="1551870794202" duration="257000" />
+      <workItem from="1551871220359" duration="8396000" />
+      <workItem from="1551956434602" duration="2357000" />
+      <workItem from="1552223722595" duration="600000" />
+      <workItem from="1552316949088" duration="927000" />
+      <workItem from="1552382073473" duration="9224000" />
+      <workItem from="1552401715239" duration="15000" />
+      <workItem from="1552468445462" duration="5906000" />
+      <workItem from="1552481515288" duration="2063000" />
+      <workItem from="1552575362712" duration="1623000" />
+      <workItem from="1552641448704" duration="2847000" />
+      <workItem from="1552701904872" duration="7637000" />
+      <workItem from="1552743297932" duration="596000" />
+      <workItem from="1552805067961" duration="21000" />
+      <workItem from="1552822441098" duration="4308000" />
+      <workItem from="1552830987451" duration="4036000" />
+      <workItem from="1552835398964" duration="357000" />
+      <workItem from="1552907504509" duration="12000" />
+      <workItem from="1552908040140" duration="96000" />
+      <workItem from="1552913275102" duration="638000" />
+      <workItem from="1552989693090" duration="1468000" />
+      <workItem from="1552994753998" duration="588000" />
+      <workItem from="1552995485142" duration="1951000" />
+      <workItem from="1552997613634" duration="625000" />
+      <workItem from="1552998468975" duration="439000" />
+      <workItem from="1552998952687" duration="2084000" />
+      <workItem from="1553003608014" duration="229000" />
+      <workItem from="1553004302464" duration="453000" />
+      <workItem from="1553062316061" duration="14017000" />
+      <workItem from="1553095508259" duration="835000" />
+      <workItem from="1553140563208" duration="5014000" />
+      <workItem from="1553424752959" duration="10308000" />
+      <workItem from="1553604801156" duration="964000" />
+      <workItem from="1553608771549" duration="2107000" />
+      <workItem from="1553674136533" duration="484000" />
+      <workItem from="1553675247567" duration="3570000" />
+      <workItem from="1553689280548" duration="856000" />
+      <workItem from="1553696253045" duration="2133000" />
+      <workItem from="1553766483894" duration="5658000" />
+      <workItem from="1553773695985" duration="983000" />
+<<<<<<< HEAD
+=======
+      <workItem from="1554041272685" duration="1328000" />
+      <workItem from="1554207671557" duration="2161000" />
+      <workItem from="1554212236415" duration="456000" />
+      <workItem from="1554218025301" duration="99000" />
+      <workItem from="1554276945801" duration="3392000" />
+      <workItem from="1554294340724" duration="2977000" />
+      <workItem from="1554377640426" duration="596000" />
+      <workItem from="1554904770494" duration="3021000" />
+      <workItem from="1555066655223" duration="3509000" />
+      <workItem from="1555074832306" duration="233000" />
+      <workItem from="1555141686412" duration="4166000" />
+      <workItem from="1555156841969" duration="1079000" />
+      <workItem from="1555244661256" duration="1027000" />
+      <workItem from="1555253254839" duration="173000" />
+      <workItem from="1555319373928" duration="1987000" />
+      <workItem from="1555326351417" duration="4617000" />
+      <workItem from="1555399932102" duration="1649000" />
+      <workItem from="1555413973393" duration="592000" />
+      <workItem from="1555592366295" duration="2953000" />
+      <workItem from="1555937099032" duration="8266000" />
+      <workItem from="1555946871562" duration="691000" />
+      <workItem from="1556011621070" duration="2401000" />
+      <workItem from="1556174590770" duration="4004000" />
+      <workItem from="1556346548173" duration="10314000" />
+      <workItem from="1556427067163" duration="3562000" />
+      <workItem from="1556440406198" duration="9253000" />
+      <workItem from="1556537829887" duration="6155000" />
+      <workItem from="1556980432427" duration="6581000" />
+      <workItem from="1556987583668" duration="903000" />
+      <workItem from="1557045330317" duration="9986000" />
+      <workItem from="1557155136113" duration="1161000" />
+      <workItem from="1557236113896" duration="513000" />
+>>>>>>> by_19/5/8
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+<<<<<<< HEAD
+    <history-entry file="NoRecursiveTraverse - 2019.03.24 at 19h 36m 25s.xml">
+      <configuration name="NoRecursiveTraverse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NoRecursiveTraverse - 2019.03.24 at 19h 36m 39s.xml">
+      <configuration name="NoRecursiveTraverse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NoRecursiveTraverse_testTree - 2019.03.24 at 19h 38m 06s.xml">
+      <configuration name="NoRecursiveTraverse.testTree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NoRecursiveTraverse - 2019.03.24 at 19h 58m 59s.xml">
+      <configuration name="NoRecursiveTraverse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NoRecursiveTraverse - 2019.03.24 at 19h 59m 42s.xml">
+      <configuration name="NoRecursiveTraverse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NoRecursiveTraverse - 2019.03.24 at 20h 09m 25s.xml">
+      <configuration name="NoRecursiveTraverse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NoRecursiveTraverse - 2019.03.24 at 20h 10m 26s.xml">
+      <configuration name="NoRecursiveTraverse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_testStack - 2019.03.24 at 20h 11m 08s.xml">
+      <configuration name="Main.testStack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_testStack - 2019.03.27 at 18h 01m 53s.xml">
+      <configuration name="Main.testStack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KMP_test - 2019.03.28 at 19h 09m 16s.xml">
+      <configuration name="KMP.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="136751000" />
+=======
+    <history-entry file="CodeThree - 2019.04.28 at 19h 48m 22s.xml">
+      <configuration name="CodeThree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeThree - 2019.04.28 at 19h 48m 35s.xml">
+      <configuration name="CodeThree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeThree - 2019.04.28 at 19h 48m 51s.xml">
+      <configuration name="CodeThree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeThree - 2019.04.28 at 19h 49m 19s.xml">
+      <configuration name="CodeThree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeThree - 2019.04.28 at 19h 51m 00s.xml">
+      <configuration name="CodeThree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeThree - 2019.04.28 at 19h 52m 34s.xml">
+      <configuration name="CodeThree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeThree - 2019.04.28 at 19h 53m 17s.xml">
+      <configuration name="CodeThree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeThree - 2019.04.28 at 19h 54m 03s.xml">
+      <configuration name="CodeThree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeThree_test - 2019.04.28 at 19h 57m 20s.xml">
+      <configuration name="CodeThree.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CodeOne - 2019.04.29 at 19h 39m 14s.xml">
+      <configuration name="CodeOne" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="236556000" />
+>>>>>>> by_19/5/8
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+<<<<<<< HEAD
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28150135" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27211797" />
+>>>>>>> by_19/5/8
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26449788" />
+=======
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22489391" />
+>>>>>>> by_19/5/8
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.19943424" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+<<<<<<< HEAD
+      <window_info anchor="right" id="Maven" order="6" />
+=======
+      <window_info anchor="right" id="Maven" order="6" weight="0.3297587" />
+>>>>>>> by_19/5/8
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ylf/tree/Main.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/App.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/review/Node.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/Strand.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/review/LinkList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1344">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/review/QSort.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/review/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/KMP.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/review/SelectSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/review/LinkList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/string/Force.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/string/KMP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/comparable/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> by_19/5/8
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/review/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="528">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+=======
+        <state relative-caret-position="465">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/tree/NoRecursiveTraverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="41" column="63" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/tree/TreeSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/DynamicProxy/ProxyMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/review/SelectSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+>>>>>>> by_19/5/8
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/review/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/review/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="192">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+=======
+        <state relative-caret-position="456">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/review/HalveInsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/review/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+>>>>>>> by_19/5/8
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/review/ShellSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="528">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/review/HalveInsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk1.8.0.131/src.zip!/java/util/AbstractMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8496">
+          <caret line="447" column="41" selection-start-line="447" selection-start-column="41" selection-end-line="447" selection-end-column="41" />
+          <folding>
+            <element signature="e#2279#2280#0" expanded="true" />
+            <element signature="e#2319#2320#0" expanded="true" />
+=======
+        <state relative-caret-position="609">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk1.8.0.131/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="195" column="45" selection-start-line="195" selection-start-column="45" selection-end-line="195" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk1.8.0.131/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="318" column="31" selection-start-line="318" selection-start-column="13" selection-end-line="318" selection-end-column="31" />
+          <folding>
+            <element signature="e#16644#16645#0" expanded="true" />
+            <element signature="e#16679#16680#0" expanded="true" />
+>>>>>>> by_19/5/8
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="jar://E:/java/jdk1.8.0.131/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="136" column="40" selection-start-line="136" selection-start-column="40" selection-end-line="136" selection-end-column="40" />
+          <folding>
+            <element signature="e#21076#21077#0" expanded="true" />
+            <element signature="e#21103#21104#0" expanded="true" />
+            <element signature="e#21303#21304#0" expanded="true" />
+            <element signature="e#21335#21336#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ThreadPool/SchedulePool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> by_19/5/8
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="jar://E:/java/jdk1.8.0.131/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="260" column="2" lean-forward="true" selection-start-line="260" selection-start-column="2" selection-end-line="260" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/comparable/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#264#274#0" expanded="true" />
+            <element signature="e#1284#1285#0" expanded="true" />
+            <element signature="e#1313#1314#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+            <element signature="e#1441#1442#0" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1505#1506#0" expanded="true" />
+            <element signature="e#1535#1536#0" expanded="true" />
+            <element signature="e#1562#1563#0" expanded="true" />
+            <element signature="e#1601#1602#0" expanded="true" />
+            <element signature="e#1633#1634#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
+            <element signature="e#1738#1739#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ThreadPool/FixedPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk1.8.0.131/src.zip!/java/util/concurrent/SynchronousQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="83" column="29" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#34990#34991#0" expanded="true" />
+            <element signature="e#35017#35018#0" expanded="true" />
+>>>>>>> by_19/5/8
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="jar://E:/java/jdk1.8.0.131/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="423" column="53" lean-forward="true" selection-start-line="423" selection-start-column="53" selection-end-line="423" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk1.8.0.131/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2136">
+          <caret line="114" column="25" lean-forward="true" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk1.8.0.131/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="99" column="40" lean-forward="true" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="40" />
+          <folding>
+            <element signature="e#2712#2713#0" expanded="true" />
+            <element signature="e#2785#2786#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ThreadPool/SinglePool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#430#563#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ThreadPool/ThreadPoolExecuter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk1.8.0.131/src.zip!/java/lang/AbstractMethodError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+          <folding>
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+>>>>>>> by_19/5/8
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="jar://E:/java/jdk1.8.0.131/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="839" column="21" selection-start-line="839" selection-start-column="18" selection-end-line="839" selection-end-column="21" />
+          <folding>
+            <element signature="e#10189#10190#0" expanded="true" />
+            <element signature="e#10216#10217#0" expanded="true" />
+            <element signature="e#30347#30348#0" expanded="true" />
+            <element signature="e#30384#30385#0" expanded="true" />
+            <element signature="e#31041#31042#0" expanded="true" />
+            <element signature="e#31086#31087#0" expanded="true" />
+            <element signature="e#39436#39437#0" expanded="true" />
+            <element signature="e#39481#39482#0" expanded="true" />
+=======
+    <entry file="jar://E:/java/jdk1.8.0.131/src.zip!/java/lang/IncompatibleClassChangeError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+          <folding>
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+>>>>>>> by_19/5/8
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="jar://E:/java/jdk1.8.0.131/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+=======
+    <entry file="jar://E:/java/jdk1.8.0.131/src.zip!/java/lang/Error.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+          <folding>
+            <element signature="e#1447#1448#0" expanded="true" />
+            <element signature="e#1470#1471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/java/jdk1.8.0.131/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="783" column="42" lean-forward="true" selection-start-line="783" selection-start-column="42" selection-end-line="783" selection-end-column="42" />
+          <folding>
+            <element signature="e#10280#10281#0" expanded="true" />
+            <element signature="e#10314#10315#0" expanded="true" />
+>>>>>>> by_19/5/8
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-298">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+=======
+    <entry file="jar://E:/java/jdk1.8.0.131/src.zip!/java/lang/LinkageError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+          <folding>
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+>>>>>>> by_19/5/8
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/tree/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+=======
+    <entry file="jar://E:/java/jdk1.8.0.131/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="221" column="32" selection-start-line="221" selection-start-column="32" selection-end-line="221" selection-end-column="32" />
+          <folding>
+            <element signature="e#8508#8509#0" expanded="true" />
+            <element signature="e#8555#8556#0" expanded="true" />
+>>>>>>> by_19/5/8
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/tree/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+=======
+    <entry file="jar://E:/java/jdk1.8.0.131/src.zip!/java/util/concurrent/Delayed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/queue/MyQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> by_19/5/8
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/tree/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+=======
+    <entry file="jar://E:/java/jdk1.8.0.131/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6037">
+          <caret line="288" column="22" selection-start-line="288" selection-start-column="22" selection-end-line="288" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ThreadPool/CachePool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+>>>>>>> by_19/5/8
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/tree/NoRecursiveTraverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="984">
+          <caret line="41" column="63" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/tree/BiTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2102">
+          <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/work/Do.java" />
+    <entry file="jar://E:/java/jdk1.8.0.131/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> by_19/5/8
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/tree/TreeSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1142">
+          <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/Clazz/NoName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+          <folding>
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/LeftTreeView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="109" column="33" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/tree/BiTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+>>>>>>> by_19/5/8
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/Clazz/Outter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+=======
+    <entry file="jar://E:/java/jdk1.8.0.131/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-194">
+          <caret line="453" column="23" selection-start-line="453" selection-start-column="23" selection-end-line="453" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/CodeTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/FullArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/queue/DelayQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="131" column="30" lean-forward="true" selection-start-line="131" selection-start-column="30" selection-end-line="131" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> by_19/5/8
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/string/Force.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/string/KMP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/tree/Te.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ylf/tree/Tt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ThreadPool/callable/CallMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ThreadPool/callable/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/work/DoMain.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/TestS.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/BitNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/Permutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="32" column="87" selection-start-line="32" selection-start-column="87" selection-end-line="32" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithm/Combination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/CodeThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/CodeOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> by_19/5/8
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>datastruct</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+<<<<<<< HEAD
+=======
+                <option value="0.6" />
+>>>>>>> by_19/5/8
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

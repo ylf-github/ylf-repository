@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ylf.manage.dao.mapper.CourseMapper" >
+  <resultMap id="BaseResultMap" type="com.ylf.manage.entity.Course" >
+    <id column="c_id" property="cId" jdbcType="VARCHAR" />
+    <result column="c_name" property="cName" jdbcType="VARCHAR" />
+    <result column="c_class" property="cClass" jdbcType="VARCHAR" />
+    <result column="c_img" property="cImg" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    c_id, c_name, c_class, c_img
+  </sql>
+  <select id="selectCourseByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from course
+    where c_id = #{cId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteCourseByPrimaryKey" parameterType="java.lang.String" >
+    delete from course
+    where c_id = #{cId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insertCourse" parameterType="com.ylf.manage.entity.Course" >
+    insert into course (c_id, c_name, c_class,c_img)
+    values (#{cId,jdbcType=VARCHAR}, #{cName,jdbcType=VARCHAR}, #{cClass,jdbcType=VARCHAR}, 
+      #{cImg,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.ylf.manage.entity.Course" >
+    insert into course
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="cId != null" >
+        c_id,
+      </if>
+      <if test="cName != null" >
+        c_name,
+      </if>
+      <if test="cClass != null" >
+        c_class,
+      </if>
+      <if test="cImg != null" >
+        c_img,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="cId != null" >
+        #{cId,jdbcType=VARCHAR},
+      </if>
+      <if test="cName != null" >
+        #{cName,jdbcType=VARCHAR},
+      </if>
+      <if test="cClass != null" >
+        #{cClass,jdbcType=VARCHAR},
+      </if>
+      <if test="cImg != null" >
+        #{cImg,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.ylf.manage.entity.Course" >
+    update course
+    <set >
+      <if test="cName != null" >
+        c_name = #{cName,jdbcType=VARCHAR},
+      </if>
+      <if test="cClass != null" >
+        c_class = #{cClass,jdbcType=VARCHAR},
+      </if>
+      <if test="cImg != null" >
+        c_img = #{cImg,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where c_id = #{cId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.ylf.manage.entity.Course" >
+    update course
+    set c_name = #{cName,jdbcType=VARCHAR},
+      c_class = #{cClass,jdbcType=VARCHAR},
+      c_img = #{cImg,jdbcType=VARCHAR}
+    where c_id = #{cId,jdbcType=VARCHAR}
+  </update>
+
+  <select id="selectCourseById" resultMap="BaseResultMap" parameterType="String">
+     select * from course where c_id in (
+     select c_id from uc_item where u_email=#{id}
+     )
+  </select>
+
+
+
+</mapper>

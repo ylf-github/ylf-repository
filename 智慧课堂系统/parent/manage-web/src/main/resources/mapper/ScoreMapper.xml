@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ylf.manage.dao.mapper.ScoreMapper" >
+  <resultMap id="BaseResultMap" type="com.ylf.manage.entity.Score" >
+    <id column="u_email" property="uEmail" jdbcType="VARCHAR" />
+    <id column="c_id" property="cId" jdbcType="VARCHAR" />
+    <result column="num" property="num" jdbcType="INTEGER" />
+    <result column="u_name" property="uName" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    u_email, c_id, num, u_name
+  </sql>
+  <insert id="insertScore" parameterType="com.ylf.manage.entity.Score" >
+    insert into score (u_email, c_id, num, 
+      u_name)
+    values (#{uEmail,jdbcType=VARCHAR}, #{cId,jdbcType=VARCHAR},0,
+      #{uName,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.ylf.manage.entity.Score" >
+    insert into score
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="uEmail != null" >
+        u_email,
+      </if>
+      <if test="cId != null" >
+        c_id,
+      </if>
+      <if test="num != null" >
+        num,
+      </if>
+      <if test="uName != null" >
+        u_name,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="uEmail != null" >
+        #{uEmail,jdbcType=VARCHAR},
+      </if>
+      <if test="cId != null" >
+        #{cId,jdbcType=VARCHAR},
+      </if>
+      <if test="num != null" >
+        #{num,jdbcType=INTEGER},
+      </if>
+      <if test="uName != null" >
+        #{uName,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.ylf.manage.entity.Score" >
+    update score
+    <set >
+      <if test="num != null" >
+        num = #{num,jdbcType=INTEGER},
+      </if>
+      <if test="uName != null" >
+        u_name = #{uName,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where u_email = #{uEmail,jdbcType=VARCHAR}
+      and c_id = #{cId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateScoreByPrimaryKey" parameterType="com.ylf.manage.entity.Score" >
+    update score
+    set num = num+#{num,jdbcType=INTEGER}
+    where u_email = #{uEmail,jdbcType=VARCHAR}
+      and c_id = #{cId,jdbcType=VARCHAR}
+  </update>
+
+  <select id="selectScoreByCid" parameterType="java.lang.String" resultMap="BaseResultMap">
+     select * from score where c_id=#{c_id,jdbcType=VARCHAR} order by num DESC
+  </select>
+</mapper>

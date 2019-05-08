@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ylf.manage.dao.mapper.SignMapper" >
+  <resultMap id="BaseResultMap" type="com.ylf.manage.entity.Sign" >
+    <id column="s_id" property="sId" jdbcType="VARCHAR" />
+    <result column="c_id" property="cId" jdbcType="VARCHAR" />
+    <result column="des" property="des" jdbcType="VARCHAR" />
+    <result column="time" property="time" jdbcType="VARCHAR" />
+    <!--<collection property="signers" javaType="ArrayList"
+                column="s_id" ofType="com.ylf.manage.entity.Signer"
+                select="com.ylf.manage.dao.mapper.SignerMapper.selectSingerBySId"
+                fetchType="lazy">
+                <result property="uEmail" column="u_email"></result>
+                <result property="sId" column="s_id"></result>
+                <result property="sTime" column="s_time"></result>
+                <result property="cId" column="c_id"></result>
+                <result property="sType" column="s_type"></result>
+    </collection>-->
+  </resultMap>
+  <sql id="Base_Column_List" >
+    s_id, c_id, des, time
+  </sql>
+  <select id="selectSignByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from sign
+    where s_id = #{sId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteSignByPrimaryKey" parameterType="java.lang.String" >
+    delete from sign
+    where s_id = #{sId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insertSign" parameterType="com.ylf.manage.entity.Sign" >
+    insert into sign (s_id, c_id, des, 
+      time)
+    values (#{sId,jdbcType=VARCHAR}, #{cId,jdbcType=VARCHAR}, #{des,jdbcType=VARCHAR}, 
+      #{time,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.ylf.manage.entity.Sign" >
+    insert into sign
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="sId != null" >
+        s_id,
+      </if>
+      <if test="cId != null" >
+        c_id,
+      </if>
+      <if test="des != null" >
+        des,
+      </if>
+      <if test="time != null" >
+        time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="sId != null" >
+        #{sId,jdbcType=VARCHAR},
+      </if>
+      <if test="cId != null" >
+        #{cId,jdbcType=VARCHAR},
+      </if>
+      <if test="des != null" >
+        #{des,jdbcType=VARCHAR},
+      </if>
+      <if test="time != null" >
+        #{time,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.ylf.manage.entity.Sign" >
+    update sign
+    <set >
+      <if test="cId != null" >
+        c_id = #{cId,jdbcType=VARCHAR},
+      </if>
+      <if test="des != null" >
+        des = #{des,jdbcType=VARCHAR},
+      </if>
+      <if test="time != null" >
+        time = #{time,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where s_id = #{sId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.ylf.manage.entity.Sign" >
+    update sign
+    set c_id = #{cId,jdbcType=VARCHAR},
+      des = #{des,jdbcType=VARCHAR},
+      time = #{time,jdbcType=VARCHAR}
+    where s_id = #{sId,jdbcType=VARCHAR}
+  </update>
+
+  <select id="selectCourseSign" resultMap="BaseResultMap" parameterType="java.lang.String">
+          select * from sign where c_id=#{c_id,jdbcType=VARCHAR}
+  </select>
+</mapper>

@@ -1,0 +1,17 @@
+com\ylf\manage\service\RepScore_serv.class
+<<<<<<< HEAD
+com\ylf\manage\dao\mapper\RepScoreMapper.class
+com\ylf\manage\dao\RepScore_dao.class
+com\ylf\manage\idao\RepScore_idao.class
+com\ylf\manage\iservice\RepScore_iserv.class
+=======
+com\ylf\manage\idao\Task_idao.class
+com\ylf\manage\dao\mapper\RepScoreMapper.class
+com\ylf\manage\iservice\Task_iserv.class
+com\ylf\manage\dao\RepScore_dao.class
+com\ylf\manage\service\Task_serv.class
+com\ylf\manage\idao\RepScore_idao.class
+com\ylf\manage\iservice\RepScore_iserv.class
+com\ylf\manage\dao\mapper\TaskMapper.class
+com\ylf\manage\dao\Task_dao.class
+>>>>>>> by_19/5/8

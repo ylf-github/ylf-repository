@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ylf.manage.dao.mapper.SignerMapper" >
+  <resultMap id="BaseResultMap" type="com.ylf.manage.entity.Signer" >
+    <result column="u_email" property="uEmail" jdbcType="VARCHAR" />
+    <result column="s_id" property="sId" jdbcType="VARCHAR" />
+    <result column="s_time" property="sTime" jdbcType="VARCHAR" />
+    <result column="c_id" property="cId" jdbcType="VARCHAR" />
+    <result column="s_type" property="sType" jdbcType="VARCHAR" />
+    <result column="createTime" property="createTime" jdbcType="VARCHAR"/>
+  </resultMap>
+  <insert id="insertSigner" parameterType="com.ylf.manage.entity.Signer" >
+    insert into signer (u_email, s_id, s_time, 
+      c_id, s_type,createTime)
+    values (#{uEmail,jdbcType=VARCHAR}, #{sId,jdbcType=VARCHAR}, #{sTime,jdbcType=VARCHAR}, 
+      #{cId,jdbcType=VARCHAR}, #{sType,jdbcType=VARCHAR},#{createTime,jdbcType=VARCHAR})
+  </insert>
+
+  <select id="selectSingerBySId" resultMap="BaseResultMap" parameterType="java.lang.String">
+           select * from signer where s_id=#{s_id,jdbcType=VARCHAR}
+  </select>
+
+  <update id="updateSingerType" parameterType="com.ylf.manage.entity.Signer">
+    update signer set s_type='1',s_time=#{sTime,jdbcType=VARCHAR} where s_id=#{sId,jdbcType=VARCHAR} and u_email=#{uEmail,jdbcType=VARCHAR} and c_id=#{cId,jdbcType=VARCHAR}
+  </update>
+
+  <select id="selectCourseSinger" resultMap="BaseResultMap" parameterType="com.ylf.manage.entity.Signer">
+          select * from  signer where c_id=#{cId,jdbcType=VARCHAR} and u_email=#{uEmail,jdbcType=VARCHAR}
+  </select>
+</mapper>

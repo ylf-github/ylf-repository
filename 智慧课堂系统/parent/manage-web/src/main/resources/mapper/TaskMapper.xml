@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ylf.manage.dao.mapper.TaskMapper" >
+  <resultMap id="BaseResultMap" type="com.ylf.manage.entity.Task" >
+    <id column="t_id" property="tId" jdbcType="VARCHAR" />
+    <result column="c_id" property="cId" jdbcType="VARCHAR" />
+    <result column="t_title" property="tTitle" jdbcType="VARCHAR" />
+    <result column="t_content" property="tContent" jdbcType="VARCHAR" />
+    <result column="t_name" property="tName" jdbcType="VARCHAR" />
+    <result column="t_time" property="tTime" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    t_id, c_id, t_title, t_content, t_name, t_time
+  </sql>
+  <select id="selectTaskByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from task
+    where t_id = #{tId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteTaskByPrimaryKey" parameterType="java.lang.String" >
+    delete from task
+    where t_id = #{tId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insertTask" parameterType="com.ylf.manage.entity.Task" >
+    insert into task (t_id, c_id, t_title, 
+      t_content, t_name, t_time
+      )
+    values (#{tId,jdbcType=VARCHAR}, #{cId,jdbcType=VARCHAR}, #{tTitle,jdbcType=VARCHAR}, 
+      #{tContent,jdbcType=VARCHAR}, #{tName,jdbcType=VARCHAR}, #{tTime,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.ylf.manage.entity.Task" >
+    insert into task
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="tId != null" >
+        t_id,
+      </if>
+      <if test="cId != null" >
+        c_id,
+      </if>
+      <if test="tTitle != null" >
+        t_title,
+      </if>
+      <if test="tContent != null" >
+        t_content,
+      </if>
+      <if test="tName != null" >
+        t_name,
+      </if>
+      <if test="tTime != null" >
+        t_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="tId != null" >
+        #{tId,jdbcType=VARCHAR},
+      </if>
+      <if test="cId != null" >
+        #{cId,jdbcType=VARCHAR},
+      </if>
+      <if test="tTitle != null" >
+        #{tTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="tContent != null" >
+        #{tContent,jdbcType=VARCHAR},
+      </if>
+      <if test="tName != null" >
+        #{tName,jdbcType=VARCHAR},
+      </if>
+      <if test="tTime != null" >
+        #{tTime,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.ylf.manage.entity.Task" >
+    update task
+    <set >
+      <if test="cId != null" >
+        c_id = #{cId,jdbcType=VARCHAR},
+      </if>
+      <if test="tTitle != null" >
+        t_title = #{tTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="tContent != null" >
+        t_content = #{tContent,jdbcType=VARCHAR},
+      </if>
+      <if test="tName != null" >
+        t_name = #{tName,jdbcType=VARCHAR},
+      </if>
+      <if test="tTime != null" >
+        t_time = #{tTime,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where t_id = #{tId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.ylf.manage.entity.Task" >
+    update task
+    set c_id = #{cId,jdbcType=VARCHAR},
+      t_title = #{tTitle,jdbcType=VARCHAR},
+      t_content = #{tContent,jdbcType=VARCHAR},
+      t_name = #{tName,jdbcType=VARCHAR},
+      t_time = #{tTime,jdbcType=VARCHAR}
+    where t_id = #{tId,jdbcType=VARCHAR}
+  </update>
+
+  <select id="selectTaskByCid" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select * from task where c_id=#{cId,jdbcType=VARCHAR}
+  </select>
+</mapper>

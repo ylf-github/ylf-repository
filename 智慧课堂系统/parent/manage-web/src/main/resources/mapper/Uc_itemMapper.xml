@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ylf.manage.dao.mapper.Uc_itemMapper">
+  <resultMap id="BaseResultMap" type="com.ylf.manage.entity.Uc_itemKey">
+    <id column="u_email" jdbcType="VARCHAR" property="uEmail" />
+    <id column="c_id" jdbcType="VARCHAR" property="cId" />
+    <result column="c_type" jdbcType="VARCHAR" property="cType" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    u_email, c_id, c_type
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="com.ylf.manage.entity.Uc_itemKey" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from uc_item
+    where u_email = #{uEmail,jdbcType=VARCHAR}
+      and c_id = #{cId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteUc_itemByPrimaryKey" parameterType="com.ylf.manage.entity.Uc_itemKey">
+    delete from uc_item
+    where u_email = #{uEmail,jdbcType=VARCHAR}
+      and c_id = #{cId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insertUc_item" parameterType="com.ylf.manage.entity.Uc_itemKey">
+    insert into uc_item (u_email, c_id, c_type
+      )
+    values (#{uEmail,jdbcType=VARCHAR}, #{cId,jdbcType=VARCHAR}, #{cType,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.ylf.manage.entity.Uc_itemKey">
+    insert into uc_item
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="uEmail != null">
+        u_email,
+      </if>
+      <if test="cId != null">
+        c_id,
+      </if>
+      <if test="cType != null">
+        c_type,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="uEmail != null">
+        #{uEmail,jdbcType=VARCHAR},
+      </if>
+      <if test="cId != null">
+        #{cId,jdbcType=VARCHAR},
+      </if>
+      <if test="cType != null">
+        #{cType,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.ylf.manage.entity.Uc_itemKey">
+    update uc_item
+    <set>
+      <if test="cType != null">
+        c_type = #{cType,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where u_email = #{uEmail,jdbcType=VARCHAR}
+      and c_id = #{cId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.ylf.manage.entity.Uc_itemKey">
+    update uc_item
+    set c_type = #{cType,jdbcType=VARCHAR}
+    where u_email = #{uEmail,jdbcType=VARCHAR}
+      and c_id = #{cId,jdbcType=VARCHAR}
+  </update>
+
+  <select id="selectAllUc_itemByU_id" parameterType="java.lang.String" resultMap="BaseResultMap">
+      select * from uc_item where u_email=#{id,jdbcType=VARCHAR}
+  </select>
+</mapper>

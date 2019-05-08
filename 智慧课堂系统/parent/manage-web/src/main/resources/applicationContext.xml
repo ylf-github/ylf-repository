@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:mybatis="http://mybatis.org/schema/mybatis-spring"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                         http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+                         http://www.springframework.org/schema/context
+                         http://www.springframework.org/schema/context/spring-context-4.3.xsd
+                         http://www.springframework.org/schema/mvc
+                         http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd
+                         http://www.springframework.org/schema/tx
+                         http://www.springframework.org/schema/tx/spring-tx-4.3.xsd
+                         http://mybatis.org/schema/mybatis-spring
+          http://mybatis.org/schema/mybatis-spring.xsd ">
+
+
+    <!-- 扫描注册 -->
+    <context:component-scan base-package="com.ylf.manage.service"></context:component-scan>
+    <context:component-scan base-package="com.ylf.manage.dao"></context:component-scan>
+    <context:component-scan base-package="com.ylf.manage.entity"></context:component-scan>
+
+    <!-- 加载数据源 -->
+    <context:property-override location="classpath:db.properties"/>
+    <context:property-override location="classpath:redis.properties"/>
+
+    <!-- 配置druid数据源 -->
+    <bean id="aliDataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+        <!-- 基本属性 url、user、password -->
+        <property name="driverClassName" value="${aliDataSource.driverClassName}"/>
+        <property name="url" value="${aliDataSource.url}"/>
+        <property name="username" value="${aliDataSource.username}"/>
+        <property name="password" value="${aliDataSource.password}"/>
+        <!-- 配置初始化大小、最小、最大 -->
+        <property name="maxActive" value="20"/>
+        <property name="initialSize" value="1"/>
+        <property name="minIdle" value="1"/>
+        <!-- 配置获取连接等待超时的时间 -->
+        <property name="maxWait" value="60000"/>
+        <!-- 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 -->
+        <property name="timeBetweenEvictionRunsMillis" value="60000"/>
+        <!-- 配置一个连接在池中最小生存的时间，单位是毫秒 -->
+        <property name="minEvictableIdleTimeMillis" value="300000"/>
+        <property name="testWhileIdle" value="true"/>
+        <property name="testOnBorrow" value="false"/>
+        <property name="testOnReturn" value="false"/>
+        <!-- 打开PSCache，并且指定每个连接上PSCache的大小 -->
+        <property name="poolPreparedStatements" value="true"/>
+        <property name="maxOpenPreparedStatements" value="20"/>
+    </bean>
+
+    <!-- 配置SqlSession,org.mybatis.spring.SqlSessionFactoryBean是Mybatis社区用于开发整合
+     Spring的bean
+         -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="aliDataSource"/>
+        <property name="mapperLocations" value="classpath:mapper/*Mapper.xml"/>
+    </bean>
+    <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
+        <constructor-arg index="0" ref="sqlSessionFactory"/>
+    </bean>
+
+    <!-- JDBC事务管理器 -->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager"
+          p:dataSource-ref="aliDataSource">
+    </bean>
+
+    <!--redis连接池-->
+    <bean id="poolConfig" class="redis.clients.jedis.JedisPoolConfig">
+         <property name="maxIdle" value="${poolConfig.maxIdle}"></property>
+         <property name="maxTotal" value="${poolConfig.maxTotal}"></property>
+         <property name="maxWaitMillis" value="${poolConfig.maxWaitMillis}"></property>
+         <property name="testOnBorrow" value="${poolConfig.testOnBorrow}"></property>
+         <property name="testOnReturn" value="${poolConfig.testOnReturn}"></property>
+    </bean>
+
+    <!--redis连接属性-->
+    <bean id="redisConnectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
+        <property name="hostName" value="${redisConnectionFactory.hostName}"></property>
+        <property name="port" value="${redisConnectionFactory.port}"></property>
+        <property name="password" value="${redisConnectionFactory.password}"></property>
+        <property name="poolConfig" ref="poolConfig"></property>
+        <property name="timeout" value="100000"></property>
+    </bean>
+
+    <!--Jedis模板配置-->
+    <bean id="jdkSerializationRedisSerializer"
+          class="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer">
+    </bean>
+
+    <bean id="stringRedisSerializer"
+          class="org.springframework.data.redis.serializer.StringRedisSerializer">
+    </bean>
+
+    <bean id="redisTemplate"  class="org.springframework.data.redis.core.RedisTemplate">
+    <property name="connectionFactory" ref="redisConnectionFactory" />
+    <property name="keySerializer" ref="stringRedisSerializer" />
+    <property name="valueSerializer" ref="jdkSerializationRedisSerializer" />
+    </bean>
+
+    <!--courator-->
+    <!--确定重连策略-->
+    <bean id="retryPolicy" class="org.apache.curator.retry.ExponentialBackoffRetry">
+        <!--每次重连等待时间-->
+        <constructor-arg index="0" value="1000"></constructor-arg>
+        <!--设置重连的次数-->
+        <constructor-arg index="1" value="3"></constructor-arg>
+    </bean>
+    <!--zookeeper客户端设置-->
+    <bean id="client" class="org.apache.curator.framework.CuratorFrameworkFactory"
+    factory-method="newClient" init-method="start">
+        <!--设置zookeeper地址-->
+        <constructor-arg index="0" value="127.0.0.1:2181"></constructor-arg>
+        <!--设置会话超时时间-->
+        <constructor-arg index="1" value="10000"></constructor-arg>
+        <!--设置连接超时时间-->
+        <constructor-arg index="2" value="10000"></constructor-arg>
+        <!--重连策略-->
+        <constructor-arg index="3" ref="retryPolicy"></constructor-arg>
+    </bean>
+</beans>
+                          

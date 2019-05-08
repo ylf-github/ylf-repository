@@ -1,0 +1,114 @@
+<<<<<<< HEAD
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\iservice\UC_item_iserv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\config\ZookeeperConf.java
+<<<<<<< HEAD
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\util\UUID.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\idao\Score_idao.java
+=======
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\iservice\RepScore_iserv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\util\UUID.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\idao\Score_idao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\mapper\RepScoreMapper.java
+>>>>>>> zhkt-ok
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\Sign_dao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\idao\Signer_idao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\mapper\ScoreMapper.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\iservice\User_iserv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\service\Sign_serv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\idao\Resource_idao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\idao\User_idao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\service\Score_serv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\Course_dao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\idao\Sign_idao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\service\Resource_serv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\BaseDao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\iservice\Course_iserv.java
+<<<<<<< HEAD
+=======
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\idao\RepScore_idao.java
+>>>>>>> zhkt-ok
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\service\Signer_serv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\util\Test.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\mapper\SignMapper.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\service\Course_serv.java
+<<<<<<< HEAD
+=======
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\service\RepScore_serv.java
+>>>>>>> zhkt-ok
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\idao\Course_idao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\util\ImgFile.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\Resource_dao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\iservice\Score_iserv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\User_dao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\util\ResourceFile.java
+<<<<<<< HEAD
+=======
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\RepScore_dao.java
+>>>>>>> zhkt-ok
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\mapper\CourseMapper.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\Score_dao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\service\UC_item_serv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\util\Mail.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\mapper\ResourceMapper.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\mapper\UserMapper.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\iservice\Resource_iserv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\mapper\SignerMapper.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\idao\UC_item_idao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\util\MD5.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\UC_item_dao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\iservice\Sign_iserv.java
+=======
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\config\ZookeeperConf.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\util\UUID.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\mapper\RepScoreMapper.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\Sign_dao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\idao\Signer_idao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\service\Sign_serv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\idao\Resource_idao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\mapper\TaskMapper.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\service\Resource_serv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\BaseDao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\service\Signer_serv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\util\Test.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\service\Course_serv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\idao\Course_idao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\util\ImgFile.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\iservice\Score_iserv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\User_dao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\util\ResourceFile.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\service\UC_item_serv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\mapper\ResourceMapper.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\Task_dao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\mapper\SignerMapper.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\util\MD5.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\iservice\Sign_iserv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\iservice\UC_item_iserv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\iservice\RepScore_iserv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\idao\Score_idao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\mapper\ScoreMapper.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\iservice\User_iserv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\idao\User_idao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\service\Score_serv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\Course_dao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\idao\Sign_idao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\iservice\Course_iserv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\idao\RepScore_idao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\mapper\SignMapper.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\service\RepScore_serv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\Resource_dao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\service\Task_serv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\iservice\Task_iserv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\RepScore_dao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\mapper\CourseMapper.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\Score_dao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\util\Mail.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\mapper\UserMapper.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\iservice\Resource_iserv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\idao\Task_idao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\idao\UC_item_idao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\UC_item_dao.java
+>>>>>>> by_19/5/8
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\mapper\Uc_itemMapper.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\iservice\Signer_iserv.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\dao\Signer_dao.java
+E:\idea-workspace\parent\manage-service\src\main\java\com\ylf\manage\service\User_serv.java

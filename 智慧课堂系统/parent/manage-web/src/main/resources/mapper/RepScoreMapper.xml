@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ylf.manage.dao.mapper.RepScoreMapper" >
+  <resultMap id="BaseResultMap" type="com.ylf.manage.entity.RepScore" >
+    <result column="r_id" property="rId" jdbcType="VARCHAR" />
+    <result column="u_email" property="uEmail" jdbcType="VARCHAR" />
+  </resultMap>
+  <insert id="insertRepScore" parameterType="com.ylf.manage.entity.RepScore" >
+    insert into repscore (r_id, u_email)
+    values (#{rId,jdbcType=VARCHAR}, #{uEmail,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.ylf.manage.entity.RepScore" >
+    insert into repscore
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="rId != null" >
+        r_id,
+      </if>
+      <if test="uEmail != null" >
+        u_email,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="rId != null" >
+        #{rId,jdbcType=VARCHAR},
+      </if>
+      <if test="uEmail != null" >
+        #{uEmail,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="selectRepScore" resultMap="BaseResultMap" parameterType="com.ylf.manage.entity.RepScore">
+    select * from repscore where r_id=#{rId,jdbcType=VARCHAR} and u_email=#{uEmail,jdbcType=VARCHAR}
+  </select>
+</mapper>
